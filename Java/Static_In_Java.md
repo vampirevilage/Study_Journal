@@ -78,6 +78,7 @@ For example, the following Java code prints “Static Method of A” for b.fun()
 Note: Static method is a class property, so if a static method is called from a class name or object having a class container then the method of that class is called not the object’s method.
 
 Note : If the methods were non-static, b.fun() would print "Static method of B"
+Note : static method and non-static methods can't override each other.
 Code :
 ```
 class A {
