@@ -15,14 +15,14 @@ Just 10 minutes of meditation a day can have huge physical and mental benefits.
 
 Today in this very short post I will try to guide you to meditation - how to do it.<br>
 
-The whole purpose of meditation is keep your mind blank, not thinking of anything at all, just peace and blank. This might seem easy at first but beleive me, your mind *will* wander, a lot.<br>
+The whole purpose of meditation is to keep your mind blank, not thinking of anything at all, just peace and blank. This might seem easy at first but believe me, your mind *will* wander, a lot.<br>
 Try to follow these when you are a beginner in meditation.
 
 _**1. Pick a spot**_ <br>
 The spot you pick should be *quiet with no distractions*. This can be your bedroom, diningroom, even your *chair, bed or floor*. For the environment to be quiet do it either *early in the morning* and/or *before bed*.
 
 _**2. Set a time**_ <br>
-First when you are a beginner in meditation, you don't know how much time has passed (you have to be really expert to tell passed time during meditation), and you will try to look at watch to check how much time has passed and beleive me - *Time will pass very slowly during meditation*. To overcome this problem first decide for how much time you want to meditate - let's begin with 5 minutes and then we can move up to 10 then 20 minutes as we practive more and more. Then set an alarm for that duration.
+First when you are a beginner in meditation, you don't know how much time has passed (you have to be really expert to tell passed time during meditation), and you will try to look at watch to check how much time has passed and believe me - *Time will pass very slowly during meditation*. To overcome this problem first decide for how much time you want to meditate - let's begin with 5 minutes and then we can move up to 10 then 20 minutes as we practive more and more. Then set an alarm for that duration.
 
 _**3. Posture**_ <br>
 Experts can meditate in any position - lying, standing- sometimes on one feet and other impossible stunts but as we are beginners we will do it in sitting position which the the best. Heads up, criss-cross legs, comfortable and relaxed should be our posture.
