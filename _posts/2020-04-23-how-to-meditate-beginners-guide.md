@@ -14,7 +14,8 @@ Meditation - Best exercise for keeping a healthy mind.
 Just 10 minutes of meditation a day can have huge physical and mental benefits.
 
 Today in this very short post I will try to guide you to meditation - how to do it.<br>
-The whole purpose of meditation is keep your mind blank, not thinking of anything at all, just peace and blank. This might seem easy at first but beleive me, your mind *will* wander, a lot.\
+
+The whole purpose of meditation is keep your mind blank, not thinking of anything at all, just peace and blank. This might seem easy at first but beleive me, your mind *will* wander, a lot.<br>
 Try to follow these when you are a beginner in meditation.
 
 _**1. Pick a spot**_ <br>
