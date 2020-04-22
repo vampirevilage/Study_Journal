@@ -1,5 +1,6 @@
 images: 
-    - image: /uploads/slider/image1.jpg
-    - image: /uploads/slider/image2.jpg
-    - image: /uploads/slider/image3.jpg
-    - image: /uploads/slider/image4.jpg
+    - image: /assets/img/post-2.jpg
+    - image: /assets/img/post-1.jpg
+    - image: /assets/img/post-3.jpg
+    - image: /assets/img/post-4.jpg
+    
