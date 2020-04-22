@@ -13,7 +13,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
- {% include carousel.html height="50" unit="%" duration="7" %}
+{% include carousel.html height="50" unit="%" duration="7" %}
 
 {% highlight ruby %}
 def print_hi(name)
