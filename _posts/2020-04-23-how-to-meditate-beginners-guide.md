@@ -7,7 +7,9 @@ img: how-to-meditate.jpg
 tags: [Blog, Meditation]
 author: Chetan Chauhan
 ---
-## **Meditation** - Best exercise for keeping a healthy mind.
+<h1 style="text-align:center;"> 
+Meditation - Best exercise for keeping a healthy mind. 
+</h1> 
 
 Just 10 minutes of meditation a day can have huge physical and mental benefits.
 
