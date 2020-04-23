@@ -7,11 +7,7 @@ img: /codingimgs/immutable-class-in-java.jpg
 tags: [Blog, Coding, Java]
 author: Chetan Chauhan
 ---
-# Immutable Class
-1. Introduction
-2. Properties
-3. How to make an immutable class
-4. Miscellaneous
+# Immutable Class in Java
 
 ## Introduction
 Today we will learn how to create an immutable class in Java. Immutable objects are instances whose state doesn’t change after it has been initialized.
