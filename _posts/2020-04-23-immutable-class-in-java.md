@@ -30,8 +30,8 @@ To create a Immutable Class, we can follow the following steps :-
 4. Make all mutable fields **final** so that it’s value can be assigned only once.
 5. Initialize all the fields via a constructor performing **deep copy**.
 6. Perform cloning of objects in the getter methods to return a copy rather than returning the actual object reference.
+<details><summary><strong>Example :</strong></summary>
 
-**Example** :
 ```
 
 import java.util.HashMap;
@@ -140,6 +140,8 @@ public final class FinalClassExample {
 }
 
 ```
+
+</details>
 
 **Output** :
 ```
