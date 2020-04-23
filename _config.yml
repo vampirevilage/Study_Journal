@@ -38,12 +38,12 @@ paginate: 10
 paginate_path: /page:num/
 
 # Build settings
-# markdown: kramdown
-markdown: CommonMarkGhPages
+markdown: kramdown
+# markdown: CommonMarkGhPages
 
-commonmark:
-  options: ["SMART", "FOOTNOTES"]
-  extensions: ["strikethrough", "autolink", "table"]
+# commonmark:
+#   options: ["SMART", "FOOTNOTES"]
+#   extensions: ["strikethrough", "autolink", "table"]
 
 plugins:
   - jekyll-paginate
