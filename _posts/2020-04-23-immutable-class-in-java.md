@@ -31,9 +31,14 @@ To create a Immutable Class, we can follow the following steps :-
 5. Initialize all the fields via a constructor performing **deep copy**.
 6. Perform cloning of objects in the getter methods to return a copy rather than returning the actual object reference.
 
-<details><summary><strong>Example :</strong></summary>
-<p>
+<button type="button" class="collapsible">Open Collapsible</button>
+<div class="content">
+  <p>Lorem ipsum...</p>
+</div>
+
+**Example** :
 ```
+
 import java.util.HashMap;
 import java.util.Iterator;
 
@@ -138,12 +143,10 @@ public final class FinalClassExample {
 	}
 
 }
+
 ```
-</p>
-</details>
-<br>
-<details><summary><strong>Output :</strong></summary>
-<p>
+
+**Output** :
 ```
 Performing Deep  for Object initialization
 true
@@ -157,8 +160,6 @@ ce testMap after local variable change:{2=second, 1=first}
 ce testMap after changing variable from accessor methods:{2=second, 1=first}
 
 ```
-</p>
-</details>
 
 ## Miscellaneous
 Immutable classes can also be created using builder pattern. Builder Pattern is a better option if the immutable class has a lot of attributes and some of them are optional.\
@@ -169,9 +170,9 @@ Using builder pattern to create immutable class is a good approach when the numb
 2. The immutable class will have a private constructor with Builder object as parameter that will be used to create the immutable class.
 3. If the immutable class attributes are not immutable, for example HashMap, we should perform deep copy or cloning to avoid modification of its attributes.
 
-<details><summary><strong>Example :</strong></summary>
-<p>
+**Example**
 ```
+
 import java.util.HashMap;
 
 public class ImmutableClass {
@@ -240,7 +241,5 @@ public class ImmutableClass {
 }
 
 ```
-</p>
-</details>
 
 **Reference** :: [Oracle Documentation](https://docs.oracle.com/javase/tutorial/essential/concurrency/imstrat.html)
