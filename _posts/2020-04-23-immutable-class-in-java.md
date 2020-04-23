@@ -32,7 +32,7 @@ To create a Immutable Class, we can follow the following steps :-
 6. Perform cloning of objects in the getter methods to return a copy rather than returning the actual object reference.
 <details><summary><strong>Example :</strong></summary>
 
-{% highlight java %}
+{% highlight kotlin %}
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -100,7 +100,7 @@ public final class FinalClassExample {
 </details>
 
 <details><summary><strong>Output :</strong></summary>
-{% highlight java %}
+{% highlight kotlin %}
 Performing Deep  for Object initialization
 true
 false
@@ -125,7 +125,7 @@ Using builder pattern to create immutable class is a good approach when the numb
 
 
 <details><summary><strong>Example :</strong></summary>
-{% highlight java %}
+{% highlight kotlin %}
 import java.util.HashMap;
 
 public class ImmutableClass {
