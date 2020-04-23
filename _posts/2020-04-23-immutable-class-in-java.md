@@ -32,7 +32,7 @@ To create a Immutable Class, we can follow the following steps :-
 6. Perform cloning of objects in the getter methods to return a copy rather than returning the actual object reference.
 <details><summary><strong>Example :</strong></summary>
 
-{% highlight kotlin %}
+<p style="background-color:grey;">
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -96,11 +96,11 @@ public final class FinalClassExample {
 	}
 
 }
-{% endhighlight %}
+</p>
 </details>
 
 <details><summary><strong>Output :</strong></summary>
-{% highlight kotlin %}
+<p style="background-color:grey;">
 Performing Deep  for Object initialization
 true
 false
@@ -111,7 +111,7 @@ ce id after local variable change:10
 ce name after local variable change:original
 ce testMap after local variable change:{2=second, 1=first}
 ce testMap after changing variable from accessor methods:{2=second, 1=first}
-{% endhighlight %}
+</p>
 </details>
 
 ## Miscellaneous
@@ -125,7 +125,7 @@ Using builder pattern to create immutable class is a good approach when the numb
 
 
 <details><summary><strong>Example :</strong></summary>
-{% highlight kotlin %}
+<p style="background-color:grey;">
 import java.util.HashMap;
 
 public class ImmutableClass {
@@ -193,7 +193,7 @@ public class ImmutableClass {
 	}
 }
 
-{% endhighlight %}
+</p>
 </details>
 
 **Reference** :: [Oracle Documentation](https://docs.oracle.com/javase/tutorial/essential/concurrency/imstrat.html)
