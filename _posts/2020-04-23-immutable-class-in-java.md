@@ -154,6 +154,7 @@ ce name after local variable change:original
 ce testMap after local variable change:{2=second, 1=first}
 ce testMap after changing variable from accessor methods:{2=second, 1=first}
 {% endhighlight %}
+</details>
 
 ## Miscellaneous
 Immutable classes can also be created using builder pattern. Builder Pattern is a better option if the immutable class has a lot of attributes and some of them are optional.\
@@ -236,4 +237,5 @@ public class ImmutableClass {
 
 {% endhighlight %}
 </details>
+
 **Reference** :: [Oracle Documentation](https://docs.oracle.com/javase/tutorial/essential/concurrency/imstrat.html)
