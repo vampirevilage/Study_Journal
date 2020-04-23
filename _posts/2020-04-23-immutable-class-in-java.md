@@ -31,10 +31,7 @@ To create a Immutable Class, we can follow the following steps :-
 5. Initialize all the fields via a constructor performing **deep copy**.
 6. Perform cloning of objects in the getter methods to return a copy rather than returning the actual object reference.
 
-
-<details><summary>
 **Example** :
-</summary>
 ```
 
 import java.util.HashMap;
@@ -143,7 +140,7 @@ public final class FinalClassExample {
 }
 
 ```
-</details>
+
 **Output** :
 ```
 Performing Deep  for Object initialization
