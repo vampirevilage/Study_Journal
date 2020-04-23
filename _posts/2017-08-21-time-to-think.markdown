@@ -6,6 +6,11 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: post-5.jpg # Add image post (optional)
 tags: [Blog, Meditation]
 author: # Add name author (optional)
+images: 
+    - image: /assets/img/post-2.jpg
+    - image: /assets/img/post-1.jpg
+    - image: /assets/img/post-3.jpg
+    - image: /assets/img/post-4.jpg
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -13,7 +18,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
-{% include carousel.html height="50" unit="%" duration="7" %}
+{% include carousel1.html height="50" unit="%" duration="7" %}
 
 {% highlight ruby %}
 def print_hi(name)
