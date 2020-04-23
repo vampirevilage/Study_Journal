@@ -6,7 +6,7 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: post-5.jpg # Add image post (optional)
 tags: [Blog, Meditation]
 author: # Add name author (optional)
-images: 
+imagesforcarousel: 
     - image: /assets/img/post-2.jpg
     - image: /assets/img/post-1.jpg
     - image: /assets/img/post-3.jpg
