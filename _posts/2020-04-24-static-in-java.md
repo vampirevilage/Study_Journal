@@ -95,7 +95,7 @@ Static Block of B
 </pre>
 </details>
 
-<button type="button" class="collapsible">Open Collapsible</button>
+<button type="button" class="collapsible1">Open Collapsible</button>
 <div class="content1">
   <p>Lorem ipsum...</p>
 </div>
