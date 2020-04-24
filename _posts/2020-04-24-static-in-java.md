@@ -94,21 +94,6 @@ Static Block of B
 
 </pre>
 </details>
-<br><br><br>
-
-<button type="button" class="collapsible"><strong>Result :</strong></button>
-<div class="content">
-```java
-Hello World
-Static Block of A
-Hello World again
-Static Block of B
-```
-</div>
-
-
-
-<br><br><br>
 
 ## Static Variable
 A static variable is common to all the instances (or objects) of the class because it is a class level variable. In other words you can say that only a single copy of static variable is created and shared among all the instances of the class. Memory allocation for such variables only happens once when the class is loaded in the memory.
