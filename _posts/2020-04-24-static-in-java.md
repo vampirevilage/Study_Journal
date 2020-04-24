@@ -6,6 +6,8 @@ description: In Java, "static" is one of the keywords in Java, and it is quite c
 img: /codingimgs/immutable-class-in-java.jpg
 tags: [Blog, Coding, Java]
 author: Chetan Chauhan
+extra_css:
+  - //cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css
 ---
 # "Static" in Java
 In Java, keywords are the reserved words that cannot be used as identifiers. In total there are 57 keywords in Java. "static" is one of the keywords in Java, and it is quite complicated, let's make it a bit simple.
@@ -38,7 +40,7 @@ Code:
 
 
 <details><summary><strong>Example :</strong></summary>
-<pre style="background-color: grey;">
+<code class="language-java">
 
 class A {
     static {
@@ -64,7 +66,7 @@ public class HelloWorld{
      }
 }
 
-</pre>
+</code>
 </details>
 
 
