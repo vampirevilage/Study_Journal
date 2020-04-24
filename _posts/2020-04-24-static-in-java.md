@@ -95,6 +95,11 @@ Static Block of B
 </pre>
 </details>
 
+<button type="button" class="collapsible">Open Collapsible</button>
+<div class="content1">
+  <p>Lorem ipsum...</p>
+</div>
+
 ## Static Variable
 A static variable is common to all the instances (or objects) of the class because it is a class level variable. In other words you can say that only a single copy of static variable is created and shared among all the instances of the class. Memory allocation for such variables only happens once when the class is loaded in the memory.
 
