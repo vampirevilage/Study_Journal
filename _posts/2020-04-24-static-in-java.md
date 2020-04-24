@@ -19,7 +19,7 @@ In Java, keywords are the reserved words that cannot be used as identifiers. In 
     * Static Class
 
 ## Introduction
-In Java, **static** keyword is mainly used for memory management. It can be used with **block**, **variables**, **methods**, and **nested classes**.\
+In Java, **static** keyword is mainly used for memory management. It can be used with **block**, **variables**, **methods**, and **nested classes**.
 
 Basically, static is used for a constant variable or a method that is same for every **instance of a class**.
 
@@ -31,15 +31,15 @@ In order to create a static member (block, variable, method, nested class), you 
 
 ## Static Block
 
-Static block is a set of instructions that is run only once when a class is loaded in memory.\
-The static block spans all instances of a class, i.e. the static block is same for all the instances of a class.\
-A class can have **multiple Static blocks**, which will execute in the same sequence in which they have been written into the program. That’s the reason, values initialized by first block are overwritten by second block.\
+Static block is a set of instructions that is run only once when a class is loaded in memory.<br>
+The static block spans all instances of a class, i.e. the static block is same for all the instances of a class.
+A class can have **multiple Static blocks**, which will execute in the same sequence in which they have been written into the program. That’s the reason, values initialized by first block are overwritten by second block.<br>
 Code:
 
 
 <details><summary><strong>Example :</strong></summary>
 <p>
-```
+
 class A {
     static {
         System.out.println("Static Block of A");
@@ -63,19 +63,19 @@ public class HelloWorld{
         A b = new B();
      }
 }
-```
+
 </p>
 </details>
 
 
 <details><summary><strong>Result :</strong></summary>
 <p>
-```
+
 Hello World
 Static Block of A
 Hello World again
 Static Block of B
-```
+
 </p>
 </details>
 
@@ -90,17 +90,18 @@ A static variable is common to all the instances (or objects) of the class becau
     * before any static method of the class executes.
     
 ## Static Method
-Static Methods can access class variables(static variables) without using object(instance) of the class, however non-static methods and non-static variables can only be accessed using objects.\
+Static Methods can access class variables(static variables) without using object(instance) of the class, however non-static methods and non-static variables can only be accessed using objects.<br>
 Static methods can be accessed directly in static and non-static methods.
 
-In Java, if the name of a derived class static function is the same as a base class static function then the base class static function shadows (or conceals) the derived class static function. \
-For example, the following Java code prints “Static Method of A” for b.fun().\
+In Java, if the name of a derived class static function is the same as a base class static function then the base class static function shadows (or conceals) the derived class static function. <br>
+For example, the following Java code prints “Static Method of A” for b.fun().<br>
 Note: Static method is a class property, so if a static method is called from a class name or object having a class container then the method of that class is called not the object’s method.
 
-Note : If the methods were non-static, b.fun() would print "Static method of B"\
+Note : If the methods were non-static, b.fun() would print "Static method of B"<br>
 Note : static method and non-static methods can't override each other.
-Code :
-```
+
+<details><summary><strong>Code :</strong></summary>
+<p>
 class A {
     static void fun() {
         System.out.println("Static Method of A");
@@ -122,14 +123,17 @@ public class HelloWorld{
         c.fun();
      }
 }
-```
-Result :
-```
+</p>
+</details>
+
+<details><summary><strong>Result :</strong></summary>
+<p style="background-color: aliceblue;">
 Hello World
 Static Method of A
 Static Method of A
 Static Method of B
-```
+</p>
+</details>
 
 ## Static Class
 A class can be made static only if it is a nested class. Nested static class doesn’t need a reference of Outer class. In this case, a static class cannot access non-static members of the Outer class.
