@@ -1,3 +1,12 @@
+---
+layout: post
+title: Immutable Class in Java
+date: 2020-04-23 14:3:00 +0530
+description: In Java, "static" is one of the keywords in Java, and it is quite complicated, let's make it a bit simple.
+img: /codingimgs/immutable-class-in-java.jpg
+tags: [Blog, Coding, Java]
+author: Chetan Chauhan
+---
 # "Static" in Java
 In Java, keywords are the reserved words that cannot be used as identifiers. In total there are 57 keywords in Java. "static" is one of the keywords in Java, and it is quite complicated, let's make it a bit simple.
 
