@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Immutable Class in Java
-date: 2020-04-23 14:3:00 +0530
+title: Static in Java
+date: 2020-04-24 15:35:00 +0530
 description: In Java, "static" is one of the keywords in Java, and it is quite complicated, let's make it a bit simple.
 img: /codingimgs/immutable-class-in-java.jpg
 tags: [Blog, Coding, Java]
