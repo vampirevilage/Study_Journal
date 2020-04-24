@@ -38,7 +38,7 @@ Code:
 
 
 <details><summary><strong>Example :</strong></summary>
-<p>
+<pre style="background-color: grey;">
 
 class A {
     static {
@@ -64,19 +64,19 @@ public class HelloWorld{
      }
 }
 
-</p>
+</pre>
 </details>
 
 
 <details><summary><strong>Result :</strong></summary>
-<p>
+<pre style="background-color: grey;">
 
 Hello World
 Static Block of A
 Hello World again
 Static Block of B
 
-</p>
+</pre>
 </details>
 
 ## Static Variable
@@ -101,7 +101,7 @@ Note : If the methods were non-static, b.fun() would print "Static method of B"<
 Note : static method and non-static methods can't override each other.
 
 <details><summary><strong>Code :</strong></summary>
-<p>
+<pre style="background-color: grey;">
 class A {
     static void fun() {
         System.out.println("Static Method of A");
@@ -123,16 +123,16 @@ public class HelloWorld{
         c.fun();
      }
 }
-</p>
+</pre>
 </details>
 
 <details><summary><strong>Result :</strong></summary>
-<p style="background-color: aliceblue;">
+<pre style="background-color: grey;">
 Hello World
 Static Method of A
 Static Method of A
 Static Method of B
-</p>
+</pre>
 </details>
 
 ## Static Class
