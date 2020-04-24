@@ -8,8 +8,6 @@ tags: [Blog, Coding, Java]
 author: Chetan Chauhan
 extra_css:
   - //cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css
-  - //cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/prism.js
-  - //cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/components/prism-java.min.js
 ---
 # "Static" in Java
 In Java, keywords are the reserved words that cannot be used as identifiers. In total there are 57 keywords in Java. "static" is one of the keywords in Java, and it is quite complicated, let's make it a bit simple.
@@ -42,7 +40,15 @@ Code:
 
 
 <details><summary><strong>Example :</strong></summary>
-<code class="language-java">
+<pre style="
+    background-color: bisque;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+">
 
 class A {
     static {
@@ -68,12 +74,20 @@ public class HelloWorld{
      }
 }
 
-</code>
+</pre>
 </details>
 
 
 <details><summary><strong>Result :</strong></summary>
-<pre style="background-color: grey;">
+<pre style="
+    background-color: bisque;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+">
 
 Hello World
 Static Block of A
@@ -105,7 +119,15 @@ Note : If the methods were non-static, b.fun() would print "Static method of B"<
 Note : static method and non-static methods can't override each other.
 
 <details><summary><strong>Code :</strong></summary>
-<pre style="background-color: grey;">
+<pre style="
+    background-color: bisque;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+">
 class A {
     static void fun() {
         System.out.println("Static Method of A");
@@ -131,7 +153,15 @@ public class HelloWorld{
 </details>
 
 <details><summary><strong>Result :</strong></summary>
-<pre style="background-color: grey;">
+<pre style="
+    background-color: bisque;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+">
 Hello World
 Static Method of A
 Static Method of A
