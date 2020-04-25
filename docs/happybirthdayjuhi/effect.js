@@ -179,6 +179,7 @@ $('document').ready(function(){
 			if(i==50){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
+					$('#moments').fadeIn('slow');
 				});
 				
 			}
@@ -193,6 +194,14 @@ $('document').ready(function(){
 		msgLoop(0);
 		
 	});
+
+	$('#moments').click(function(){
+		$(this).fadeOut('slow');
+		$('.cake').fadeOut('fast').promise().done(function(){
+			$('.carousel').fadeIn('slow');
+		});
+	});
+
 });
 
 

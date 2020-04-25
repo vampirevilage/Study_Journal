@@ -39,6 +39,11 @@ paginate_path: /page:num/
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 # markdown: CommonMarkGhPages
 
 # commonmark:
