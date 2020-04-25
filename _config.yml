@@ -1,9 +1,9 @@
 title: My personal blog - Chetan Chauhan
 email: chauhanchetan82@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-Chetan's Blog :: My name is Chetan Chauhan. I’m a full-time software engineer and web 
-developer who’s been exploring the software world for over 2 years.
-This is my blog where I will put my experiences with life, coding, travels and foods.
+  Chetan's Blog :: My name is Chetan Chauhan. 
+  I’m a full-time software engineer and web developer 
+  who’s been exploring the software world for over 2 years.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -31,7 +31,7 @@ mailchimp: # Add your MailChimp form identifier.
 discus_identifier:  # Add your discus identifier
 
 # Tracker
-analytics: UA-164508744-1# Google Analytics
+analytics: # Google Analytics
 
 # Paginate
 paginate: 10
