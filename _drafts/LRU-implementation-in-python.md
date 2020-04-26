@@ -194,3 +194,25 @@ Ordered by: standard name
      1995    0.000    0.000    0.001    0.000 {next}
         2    0.000    0.000    0.000    0.000 {time.clock}
 ```
+
+{% codetabs %}
+
+{% codetab C %}
+```c
+printf("Hello, world!");
+```
+{% endcodetab %}
+
+{% codetab Go %}
+```go
+fmt.Println("Hello, world!")
+```
+{% endcodetab %}
+
+{% codetab Python %}
+```python
+print("Hello, world!")
+```
+{% endcodetab %}
+
+{% endcodetabs %}
