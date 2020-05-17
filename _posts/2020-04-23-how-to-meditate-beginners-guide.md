@@ -11,6 +11,7 @@ tags:
   - life
   - tips
 author: chetanchauhan
+my_prop: 'nil'
 ---
 <h1 style="text-align:center;"> 
 Meditation - Best exercise for keeping a healthy mind. 
