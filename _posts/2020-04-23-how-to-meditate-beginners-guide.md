@@ -1,11 +1,16 @@
 ---
+date: 2020-04-23 00:30:00 +0530
 layout: post
 title: How to Meditate - Beginner's Guide
-date: 2020-04-23 00:30:00 +0530
+subtitle: Just 10 minutes of meditation a day can have huge physical and mental benefits.
 description: Meditation - Best exercise for keeping a healthy mind
-img: how-to-meditate.jpg
-tags: [Blog, Meditation]
-author: Chetan Chauhan
+image: /assets/img/how-to-meditate.jpg
+optimized_image: /assets/img/how-to-meditate.jpg
+category: life
+tags:
+  - life
+  - tips
+author: chetanchauhan
 ---
 <h1 style="text-align:center;"> 
 Meditation - Best exercise for keeping a healthy mind. 

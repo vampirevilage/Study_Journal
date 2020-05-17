@@ -1,11 +1,16 @@
 ---
+date: 2020-04-23 14:30:00 +0530
 layout: post
 title: Immutable Class in Java
-date: 2020-04-23 14:30:00 +0530
+subtitle: Immutable objects are instances whose state doesn’t change after it has been initialized.
 description: Today we will learn how to create an immutable class in Java. Immutable objects are instances whose state doesn’t change after it has been initialized.
-img: /codingimgs/immutable-class-in-java.jpg
-tags: [Blog, Coding, Java]
-author: Chetan Chauhan
+image: /assets/img/codingimgs/immutable-class-in-java.jpg
+optimized_image: /assets/img/codingimgs/immutable-class-in-java.jpg
+category: code
+tags:
+  - coding
+  - java
+author: chetanchauhan
 ---
 # Immutable Class in Java
 

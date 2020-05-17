@@ -1,11 +1,16 @@
 ---
+date: 2020-04-24 15:35:00 +0530
 layout: post
 title: Static in Java
-date: 2020-04-24 15:35:00 +0530
+subtitle: In Java, static keyword is mainly used for memory management.
 description: In Java, "static" is one of the keywords in Java, and it is quite complicated, let's make it a bit simple.
-img: /codingimgs/static-in-java.jpg
-tags: [Blog, Coding, Java]
-author: Chetan Chauhan
+image: /assets/img/codingimgs/static-in-java.jpg
+optimized_image: /assets/img/codingimgs/static-in-java.jpg
+category: code
+tags:
+  - coding
+  - java
+author: chetanchauhan
 ---
 # "Static" in Java
 In Java, keywords are the reserved words that cannot be used as identifiers. In total there are 57 keywords in Java. "static" is one of the keywords in Java, and it is quite complicated, let's make it a bit simple.

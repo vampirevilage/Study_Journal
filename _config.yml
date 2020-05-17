@@ -1,61 +1,103 @@
-title: My personal blog - Chetan Chauhan
+# Site Settings
+name: Chetan's Blog
+title: Chetan's Blog | A trial run for my blogging
+description: Chetan Chauhan has decided to write his own blog - about life, love, travel, cooking and of course codes.
+tags:
+  - blog
+  - template
+  - jekyll
+  - theme
+  - netlify
 email: chauhanchetan82@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Chetan's Blog :: My name is Chetan Chauhan. 
-  I’m a full-time software engineer and web developer 
-  who’s been exploring the software world for over 2 years.
-permalink: ':title/'
+disqus_username: disqus_username
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
+
+
+# Social Media Settings
+# Remove the item if you don't need it
+github_username: foolchauhan
+facebook_username: chetanchauhan9
+twitter_username: Chauhanchetan82
+instagram_username: chetanchauhan82
+linkedin_username: chetancchauhan
+# medium_username: medium_username
+
+
+# Posts Settings
+show_time_bar: true
+show_modal_on_exit: false
+show_modal_on_finish_post: true
+two_columns_layout: true
+
+
+# Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
+language: "en"
+categories_folder: category
+sent_message_url: "/contact/message-sent/"
 
-# Author settings
-author: Chetan Chauhan # add your name
-author-pic: chetan-face.jpg
-about-author: My name is Chetan Chauhan. I’m a full-time software engineer and web developer who’s been exploring the software world for over 2 years.
-
-# Contact links
-email: chauhanchetan82@gmail.com
-phone: 8334053394# Add your Phone number
-website: foolchetan.github.io # Add your website, do not add http://
-linkedin: https://www.linkedin.com/in/chetancchauhan/ # Add your Linkedin handle
-github: foolchetan # Add your Github handle
-twitter: '@Chauhanchetan82' # Add your Twitter handle
-facebook: https://www.facebook.com/chauhanchetan9 # Add your Facebook handle
-instagram: https://www.instagram.com/chetanchauhan82/ # Add your Instagram handle
-pinterest: # Add your Pinterest handle
-
-# Newsletter
-mailchimp: # Add your MailChimp form identifier.
-
-# Disqus
-discus_identifier:  # Add your discus identifier
-
-# Tracker
-analytics: # Google Analytics
-
-# Paginate
-paginate: 10
-paginate_path: /page:num/
-
+ 
 # Build settings
 markdown: kramdown
 highlighter: rouge
+permalink: /:title/
+collections:
+  authors:
+    output: true
+paginate_path: "/page/:num/"
+show_get_theme_btn: false
+use_logo: false
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-# markdown: CommonMarkGhPages
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
 
-# commonmark:
-#   options: ["SMART", "FOOTNOTES"]
-#   extensions: ["strikethrough", "autolink", "table"]
+# SASS
+sass:
+  style: compressed
 
+# Plugins
 plugins:
   - jekyll-paginate
-  - jekyll-feed
-  - jekyll-sitemap
+  - jekyll-paginate-content
 
-include: [_pages]
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
+# Exclude my node related stuff
+exclude: [
+  'package.json',
+  'package-lock.json',
+  'src',
+  'node_modules',
+  'initpost.sh',
+  'Gemfile',
+  'Gemfile.lock',
+  'gulpfile.js',
+  'README.md'
+]
 
-excerpt_separator: ""
+# Theme
+version: v0.0.1

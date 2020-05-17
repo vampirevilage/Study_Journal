@@ -1,12 +1,19 @@
 ---
+date: 2020-04-27 15:40:00 +0530
 layout: post
 title: LRU Cache Implemantation in Python
-date: 2020-04-27 15:40:00 +0530
+subtitle: How hard could it be to implement a LRU cache in python? Let's find out.
 description: How hard could it be to implement a LRU cache in python? Let's find out.
-img: /codingimgs/LRU-cache-implementation.jpg
-tags: [Blog, Algorithm, Python]
-author: Chetan Chauhan
+image: /assets/img/codingimgs/LRU-cache-implementation.jpg
+optimized_image: /assets/img/codingimgs/LRU-cache-implementation.jpg
+category: code
+tags:
+  - coding
+  - python
+  - algorithms
+author: chetanchauhan
 ---
+
 # LRU Cache
 The [LRU caching](https://en.wikipedia.org/wiki/Cache_replacement_policies#LRU) scheme is to remove the least recently used frame when the cache is full and a new page is referenced which is not there in cache.
 
