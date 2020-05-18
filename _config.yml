@@ -20,6 +20,8 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
+  - title: Resume
+    url: /assets/resume/ChetanResume.pdf
 
 
 # Social Media Settings
