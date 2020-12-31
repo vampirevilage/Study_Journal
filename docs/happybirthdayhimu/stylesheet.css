@@ -1301,10 +1301,16 @@ audio {
     }
 
 .carousel-inner > .item > img {
+<<<<<<< HEAD
       width:100%; /* Or try to use important */
       height:auto;
     }
 
+=======
+    width:100%; /* Or try to use important */
+    height:auto;
+    }
+>>>>>>> ignore
 
     /*controlling tablet width*/
     /*@media only screen and (max-width: 720px){
